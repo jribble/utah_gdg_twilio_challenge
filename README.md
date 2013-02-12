@@ -4,6 +4,7 @@ utah_gdg_twilio_challenge
 The Utah Google Developer Group held a Survivor Challenge event in February 2013. The challenge required integration with the Twilio API.  Twilio is a VOIP provider that has some very easy to use APIs for programming SMS texting and voice call placement and response.
 
 The basic gist of the challenge was to accept a text, then call a number and play an MP3 file.  My implementation flows like this:
+
 1. Someone texts CALLME to the Twilio number
 2. Twilio sends a REST call to my web server with the text details
 3. My web server initiates a voice call from the Twilio number to the number that sent the text
